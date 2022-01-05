@@ -1,0 +1,44 @@
+h1 {
+  /* color: chocolate; */
+  /* color: rgb(0, 120, 0); */
+  color: #ff0000;
+}
+h1 {
+  font-family: cursive;
+}
+
+p {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  /* text-transform: unset; */
+  /* text-indent: 100px;
+  letter-spacing: 5px;
+  line-height: 20px;
+  word-spacing: 5px;
+  width: 500px;
+  white-space: nowrap; */
+  /* white space is used with width when i didn't want 
+  that text line come in next line with the help of white space 
+  text come in same line  */
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 2px;
+  /* border-top-style: dashed;
+    border-right-style: solid; */
+
+  /* padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    padding-left: 0px; */
+  padding: 10px 5px 2px 0px;
+
+  /* margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 12px;
+    margin-right: 6px; */
+  margin: 10px 6px 12px 5px;
+}

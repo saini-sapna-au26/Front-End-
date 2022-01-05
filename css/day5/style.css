@@ -1,0 +1,49 @@
+/* .rect {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, red, yellow, orange);
+   direction, color, color
+  background-image: repeating-linear-gradient(to right, red, yellow, orange 10% );
+
+  background-image: radial-gradient(red, yellow);
+  background-image: radial-gradient(circle, red, yellow);
+  background-image: repeating-radial-gradient(red, yellow 10%, blue 17%);
+  background-image: conic-gradient(red 30%, yellow 70%, blue 18%);
+}  */
+
+.parent-rect {
+  width: 500px;
+  height: 500px;
+  background-color: yellow;
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+
+  flex-flow: wrap row;
+  /* (flex flow is combination of flex-wrap and flex-direction) */
+
+  /* justify-content: center; */
+  /* justify-content: flex-end; */
+  /* justify-content: flex-start; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+
+  /* align-items: center; */
+  /* align-items: baseline; */
+
+  align-content: center;
+}
+
+.child-squ {
+  width: 100px;
+  height: 80px;
+  background-color: red;
+  margin: 20px;
+}
