@@ -1,0 +1,60 @@
+.parent-rect {
+  width: 500px;
+  height: 120px;
+  background-color: yellow;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.child-squ-1 {
+  width: 100px;
+  height: 80px;
+  background-color: red;
+  margin: 20px;
+  /* order: 2; */
+  /* flex-grow: 2; */
+  /* flex-shrink: 2; */
+  /* flex = flex-grow flex-shrink flex-basis */
+}
+
+.child-squ-2 {
+  width: 100px;
+  height: 80px;
+  background-color: red;
+  margin: 20px;
+  /* order: 3; */
+  /* flex-grow: 3; */
+  /* flex-shrink: 5; */
+  /* flex = flex-grow flex-shrink flex-basis */
+}
+
+.child-squ-3 {
+  width: 100px;
+  height: 80px;
+  background-color: red;
+  margin: 20px;
+  /* order: 1; */
+  /* flex-grow: 7; */
+  /* flex-shrink: 10; */
+  /* flex-basis: 700px; */
+  /* flex = flex-grow flex-shrink flex-basis */
+}
+.grid-container {
+  display: grid;
+  /* grid-template-columns: auto auto auto; */
+  /* grid-template-columns: 100px 200px 300px; */
+  grid-template-columns: repeat(3, 100px);
+  /* grid-template-rows: 100px 200px 300px; */
+  grid-template-rows: repeat(3, 100px);
+  /* justify-content: center;
+  justify-content: space-around;
+  justify-content: space-between;
+  justify-content: space-evenly; */
+  /* align-items: center; */
+  align-items: space-around;
+  /* align-items: space-between;  */
+}
+.grid-container > div {
+  background-color: blue;
+  border: 1px solid black;
+}
