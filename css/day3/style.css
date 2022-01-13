@@ -1,0 +1,32 @@
+/* div > p {
+  background-color: burlywood;
+   This is child sector  
+}
+/* div + p {
+  background-color: crimson;
+   This is Adjecent sector 
+} 
+div ~ p {
+  background-color: cyan;
+   This is slibing sector 
+} */
+/* display property */
+/* div {
+  display: none;
+} */
+/* div {
+  display: inline-block;
+} */
+/* p {
+  display: inline-block;
+} */
+/* div,
+p {
+  display: inline;
+} */
+p {
+  /* position: static; */
+  /* position: absolute; */
+  /* position: relative; */
+  position: fixed;
+}
